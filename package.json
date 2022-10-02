@@ -1,0 +1,20 @@
+{
+  "name": "api_rest",
+  "version": "1.0.0",
+  "description": "Serveur HTTP pour API REST",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "serveur.http.rest"
+  ],
+  "author": "Fresnel",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
